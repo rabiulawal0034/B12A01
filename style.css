@@ -1,0 +1,85 @@
+/* Header Section */
+.banner {
+    background-color: #f8f8f8;
+    background-image: url(/Assets/Hero-bg.png);
+    background-repeat: repeat;
+    background-size: 150px 150px;
+    padding: 60px 0;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+}
+
+/* Navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.logo a {
+    font-size: 28px;
+
+}
+
+
+.primary-but {
+    background-color: #4E47FF;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+
+.primary-but:hover {
+    background-color: #b942a5;
+}
+
+
+#signupButton {
+    font-size: 16px;
+    padding: 10px 25px;
+    font-weight: bold;
+}
+
+#stayFocusedButton {
+    font-size: 18px;
+    padding: 15px 35px;
+}
+
+/* Hero Content */
+.hero-content {
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.hero-content h1 {
+    font-size: 48px;
+    color: #333;
+    margin-bottom: 30px;
+    line-height: 1.2;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Short Line Styles */
+.short-line {
+    width: 60px;
+    height: 4px;
+    background-color: #6a5acd;
+    margin: 20px auto;
+    border-radius: 2px;
+}
+
+#topLine {
+    margin-bottom: 30px;
+}
+
+#bottomLine {
+    margin-top: 30px;
+}
